@@ -1,0 +1,60 @@
+.note {
+	@apply w-[300px] min-h-[300px] p-12 text-black text-4xl flex flex-col justify-between gap-4  select-none cursor-move absolute shadow-zinc-500 shadow-md;
+
+	&--color-1 {
+		@apply bg-yellow-500;
+	}
+
+	&--color-2 {
+		@apply bg-rose-300;
+	}
+
+	&--color-3 {
+		@apply bg-lime-500;
+	}
+
+	&--color-4 {
+		@apply bg-emerald-500;
+	}
+
+	&--color-5 {
+		@apply bg-sky-500;
+	}
+
+	&--color-6 {
+		@apply bg-blue-400;
+	}
+
+	&--color-7 {
+		@apply bg-purple-500;
+	}
+
+	&--fixed {
+		@apply fixed;
+	}
+}
+
+.top {
+	@apply absolute top-3 left-3;
+
+	.pin-button {
+	}
+}
+
+.title {
+	@apply font-semibold pb-6 mb-8 text-5xl border-b-2 border-zinc-900;
+}
+
+.text {
+	@apply whitespace-pre-wrap;
+}
+
+.bottom {
+	@apply w-full flex items-center justify-end;
+
+	.remove-button {
+		.icon-trash {
+			@apply text-4xl cursor-pointer;
+		}
+	}
+}

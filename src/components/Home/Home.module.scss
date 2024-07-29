@@ -1,0 +1,14 @@
+.main {
+	@apply h-screen overflow-hidden relative;
+}
+
+.notes {
+	@apply flex flex-wrap justify-center items-center w-screen h-screen gap-6 bg-amber-200;
+}
+
+.add-btn {
+	@apply fixed flex w-28 h-28 justify-center items-center p-6 rounded-full text-5xl bottom-10 right-10 bg-orange-500 z-[2100] drop-shadow-round 
+	transition-all duration-200 
+	hover:bg-neutral-200 
+	active:scale-75;
+}
